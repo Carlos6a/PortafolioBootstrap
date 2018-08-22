@@ -1,0 +1,39 @@
+body{
+font-family: 'Source Code Pro', monospace;
+background: #f2f2f2;
+font-size: 16px;
+}
+/* barra lateral */
+.barra-lateral{
+  background: #262a34;
+  color: #fff;
+  min-width: 300px;
+  min-height: 100vh;
+  padding: 0;
+}
+
+.barra-lateral a{
+  color:#fff;
+}
+
+/* logo */
+.barra-lateral .logo{
+  background: #0275db;
+  margin-bottom: 2px;
+}
+
+.barra-lateral .logo h2{
+  font-size: 30px;
+  padding: 20px 0;
+  text-align: center;
+  font-weight: 700;
+  margin: 0;
+}
+
+/* menu */
+
+.barra-lateral .menu a{
+  display: block;
+  padding: 20px;
+  border-bottom: 1px solid rgba(255, 255,255, .1);
+}
